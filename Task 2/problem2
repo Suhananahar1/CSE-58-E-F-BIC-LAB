@@ -1,0 +1,6 @@
+dna=input().strip()
+comp={"A":"T","T":"A","C":"G","G":"C"}
+reverse_complement=""
+for base in dna:
+    reverse_complement=comp[base]+reverse_complement
+print(reverse_complement)
