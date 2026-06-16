@@ -1,4 +1,3 @@
-
 pattern = input("Enter pattern: ")
 text = input("Enter text: ")
 d = int(input("d: "))
